@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.visualplus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": ["LivingEntityMixin", "EntityMixin", "MinecraftClientAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}

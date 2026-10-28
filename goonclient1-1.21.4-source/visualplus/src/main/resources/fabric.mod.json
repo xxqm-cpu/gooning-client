@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "visualplus",
+  "version": "${version}",
+  "name": "VisualPlus",
+  "description": "Module client: Sprint, Fullbright, ESP, Fly, NoFall, FastPlace plus aurora skies, Spotify HUD, glint and swing speed.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.visualplus.VisualPlusClient"]
+  },
+  "mixins": ["visualplus.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
